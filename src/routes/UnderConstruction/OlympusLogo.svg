@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="62.665" height="62.665" viewBox="0 0 62.665 62.665">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_605" data-name="Rectangle 605" width="62.665" height="62.665" transform="translate(0 0)" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Olympus_Logo" data-name="Olympus Logo" clip-path="url(#clip-path)">
+    <path id="Path_5" data-name="Path 5" d="M24.574,62.863V50.958A21.792,21.792,0,0,1,9.144,30.289c0-11.994,9.979-21.716,22.288-21.716S53.72,18.3,53.72,30.289A21.792,21.792,0,0,1,38.29,50.958V62.863H62.863V54.005H50.728A29.807,29.807,0,0,0,62.72,30.217C62.72,13.529,48.712,0,31.432,0S.143,13.529.143,30.217A29.807,29.807,0,0,0,12.135,54.005H0v8.858Z" transform="translate(0 -0.198)" fill="#492b0f"/>
+  </g>
+</svg>

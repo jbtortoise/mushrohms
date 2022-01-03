@@ -1,0 +1,44 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #e8e4cb;
+}
+
+.mushrohms-logo {
+  margin-bottom: 50px;
+}
+
+.social-container {
+  display: flex;
+  align-items: center;
+}
+
+.social-link {
+  height: 40px;
+  padding: 0 6px;
+}
+
+.discord {
+  height: 50px;
+}
+
+.olympus {
+  height: 35px;
+}
+
+.twitter {
+  height: 35px;
+  padding: 0px;
+  margin: 0 -4px;
+}
+
+.etherscan {
+  padding-left: 15px;
+}

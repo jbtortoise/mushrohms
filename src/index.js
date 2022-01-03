@@ -1,16 +1,15 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
-import App from "./App";
-import Collection from "./routes/Collection";
+// import App from "./App";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import UnderConstruction from "./routes/UnderConstruction/UnderConstruction";
 
 ReactDOM.render(
   <React.StrictMode>
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<App />} />
-        <Route path="/collection" element={<Collection />} />
+        <Route path="/" element={<UnderConstruction />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>,
