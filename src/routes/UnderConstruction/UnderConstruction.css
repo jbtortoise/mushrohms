@@ -13,7 +13,6 @@
 
 .mushrohms-logo {
   margin-bottom: 50px;
-  overflow: visible;
 }
 
 .social-container {
@@ -36,13 +35,8 @@
 .twitter {
   height: 35px;
   padding: 0px;
-  margin: 0 -4px;
-}
-
-.etherscan-link {
-  margin-left: 20px;
 }
 
 a {
-  margin: 0 6px;
+  margin: 0 12px;
 }
