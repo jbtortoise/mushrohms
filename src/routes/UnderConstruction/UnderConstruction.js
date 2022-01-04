@@ -9,12 +9,7 @@ import { ReactComponent as EtherscanLogo } from "./EtherscanLogo.svg";
 function UnderConstruction() {
   return (
     <div className="container">
-      <div className="mushrohms-logo">
-        <MushrohmsLogo
-          viewBox="0 0 325 325"
-          preserveAspectRatio="xMidYMid meet"
-        />
-      </div>
+      <MushrohmsLogo viewBox="0 0 325 325" className="mushrohms-logo" />
       <div className="social-container">
         <a href="https://discord.gg/QUtph52z">
           <DiscordLogo className="social-logo discord" />
