@@ -29,3 +29,8 @@ jobs:
           node-version: 14
       - run: npm install
       - run: npm run build
+      - uses: aws-actions/configure-aws-credntials@v1
+        with:
+          aws-access-ke-id: ${{ secrets.AWS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET-ACCESS-KEY }}
+          aws-region: us-west-2
