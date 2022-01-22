@@ -19,7 +19,7 @@ function DropdownMenu(props) {
       >
         <ul>
           {props.links.map((link) => (
-            <li>
+            <li key={link.href}>
               <a href={link.href}>
                 <span className="link-text menu-item-text">{link.text}</span>
               </a>
