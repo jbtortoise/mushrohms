@@ -18,16 +18,13 @@ function DropdownMenu(props) {
         className={`menu ${isActive ? "active" : "inactive"}`}
       >
         <ul>
-          <li>
-            <a href="https://google.com">
-              <span className="link-text">Google</span>
-            </a>
-          </li>
-          <li>
-            <a href="https://twitter.com">
-              <span className="link-text">twitter</span>
-            </a>
-          </li>
+          {props.links.map((link) => (
+            <li>
+              <a href={link.href}>
+                <span className="link-text menu-item-text">{link.text}</span>
+              </a>
+            </li>
+          ))}
         </ul>
       </nav>
     </div>

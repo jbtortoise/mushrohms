@@ -7,6 +7,8 @@ function App() {
       <header>
         <TopNav />
       </header>
+      <div style={{ height: "1000px" }}>filler</div>
+      <div id="sporedrops">sporedrops</div>
     </div>
   );
 }
