@@ -1,4 +1,5 @@
 import "./NavLinks.css";
+import DropdownMenu from "../DropdownMenu/DropdownMenu";
 
 function NavLinks() {
   return (
@@ -13,7 +14,9 @@ function NavLinks() {
         </a>
       </div>
       <div className="nav-link">Features</div>
-      <div className="nav-link">Collections</div>
+
+      <DropdownMenu text="Collections" />
+
       <div className="nav-link">Analytics</div>
       <div className="nav-link">Partnerships</div>
     </div>

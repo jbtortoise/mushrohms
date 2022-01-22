@@ -1,5 +1,5 @@
 import "./TopNav.css";
-import NavLinks from "../NavLinks/NavLinks.js";
+import NavLinks from "../NavLinks/NavLinks";
 
 function TopNav() {
   return (
