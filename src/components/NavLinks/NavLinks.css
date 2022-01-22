@@ -1,0 +1,12 @@
+.nav-links {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-link {
+  padding: 0.1rem 1.1rem;
+}
+
+.nav-link:hover span {
+  border-bottom: 1px solid blue;
+}

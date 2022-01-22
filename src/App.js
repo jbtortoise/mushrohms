@@ -1,12 +1,12 @@
 import "./App.css";
-import { Link } from "react-router-dom";
+import TopNav from "./components/TopNav/TopNav.js";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header"></header>
-      <div>Homepage</div>
-      <Link to="/collection">Collection page</Link>
+    <div className="app-container">
+      <header>
+        <TopNav />
+      </header>
     </div>
   );
 }
