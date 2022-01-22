@@ -16,3 +16,16 @@ header {
 .welcome-container {
   display: flex;
 }
+
+/* First Gen Section */
+
+.first-gen-image-container {
+  max-width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.first-gen-image {
+  width: 28%;
+  border-radius: 1.2rem;
+}
