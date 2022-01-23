@@ -22,3 +22,7 @@ a:visited {
 html {
   scroll-behavior: smooth;
 }
+
+p {
+  margin: 0;
+}

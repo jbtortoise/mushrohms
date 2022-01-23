@@ -9,6 +9,16 @@ header {
 
 .banner-image {
   width: 100%;
+  border-radius: 2rem;
+}
+
+.banner-image-container {
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+}
+
+.page-content {
+  margin: 0 7rem;
 }
 
 /* Welcome Section */
@@ -17,15 +27,59 @@ header {
   display: flex;
 }
 
+.welcome-image-container {
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.welcome-image-container img {
+  width: 100%;
+  border-radius: 2rem;
+}
+
+.welcome-image-label {
+  margin-top: 0.8rem;
+  font-size: 0.8rem;
+}
+
+.welcome-text-content {
+  padding-right: 2rem;
+}
+
+.welcome-text-container {
+  width: 65%;
+}
+
 /* First Gen Section */
 
-.first-gen-image-container {
+.first-gen-image-row {
   max-width: 100%;
   display: flex;
   justify-content: space-between;
 }
 
-.first-gen-image {
+.first-gen-image-container {
   width: 28%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.first-gen-image {
+  width: 100%;
   border-radius: 1.2rem;
+}
+
+.first-gen-image-label {
+  margin-top: 0.8rem;
+  font-size: 0.8rem;
+}
+
+/* Sporedrops Section */
+
+.sporedrops-content-container {
+  display: flex;
 }

@@ -34,7 +34,15 @@ function NavLinks() {
       </div>
       <DropdownMenu text="Collections" links={collectionsLinks} />
       <DropdownMenu text="Features" links={featuresLinks} />
-      <div className="nav-link">Analytics</div>
+      <div className="nav-link">
+        <a
+          href="https://dune.xyz/Mighaz/MUSHROHMS-NFT"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <span>Analytics</span>
+        </a>
+      </div>
       <DropdownMenu text="Partnerships" links={partnershipLinks} />
     </div>
   );
