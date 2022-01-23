@@ -31,7 +31,6 @@ header {
   width: 35%;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
 }
 
@@ -82,4 +81,54 @@ header {
 
 .sporedrops-content-container {
   display: flex;
+}
+
+.sporedrops-content-container p {
+  margin-bottom: 1rem;
+}
+
+/* Descendants Section */
+
+.descendants-content-container {
+  display: flex;
+}
+
+.descendants-text-container {
+  width: 65%;
+}
+
+.descendants-text-container p {
+  margin-bottom: 1rem;
+  margin-right: 2rem;
+}
+
+.descendants-image-container {
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.descendants-image-container img {
+  width: 100%;
+  border-radius: 2rem;
+}
+
+.descendants-image-label {
+  margin-top: 0.8rem;
+  font-size: 0.8rem;
+}
+
+.descendants-image-row {
+  max-width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.descendants-image-row .descendants-image-container {
+  width: 28%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }

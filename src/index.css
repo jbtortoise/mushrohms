@@ -26,3 +26,8 @@ html {
 p {
   margin: 0;
 }
+
+br {
+  display: block;
+  margin-top: 2rem;
+}

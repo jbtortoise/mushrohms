@@ -9,10 +9,10 @@ const featuresLinks = [
 ];
 
 const collectionsLinks = [
-  { text: "1st Gen Mushrohms", href: "#first-gen-shrohms" },
-  { text: "Descendant Mushrohms", href: "#descendant-shrohms" },
-  { text: "Mushrohm Friends", href: "#mushrohm-friends" },
-  { text: "Mushrohm Tribes", href: "/coming-soon" },
+  { text: "1st Gen Mushrohms", href: "/#first-gen-shrohms" },
+  { text: "Descendant Mushrohms", href: "/#descendant-shrohms" },
+  { text: "Mushrohm Friends", href: "/#mushrohm-friends" },
+  { text: "Mushrohm Tribes", href: "/#mushrohm-tribes" },
 ];
 
 const partnershipLinks = [
