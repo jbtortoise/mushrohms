@@ -1,13 +1,9 @@
-import "./App.css";
-import TopNav from "./components/TopNav/TopNav.js";
+import "./index.css";
+import "./HomePage.css";
 
-function App() {
+function HomePage() {
   return (
-    <div className="app-container">
-      <header>
-        <TopNav />
-      </header>
-
+    <>
       <div className="banner-image-container">
         <img
           className="banner-image"
@@ -191,9 +187,8 @@ function App() {
           </p>
         </section>
       </div>
-      <footer>SHROHM LOGO</footer>
-    </div>
+    </>
   );
 }
 
-export default App;
+export default HomePage;

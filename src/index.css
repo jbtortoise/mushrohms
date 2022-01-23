@@ -31,3 +31,12 @@ br {
   display: block;
   margin-top: 2rem;
 }
+
+.app-container {
+  padding: 4rem 7rem;
+  background-color: #e8e4cb;
+}
+
+header {
+  width: 100%;
+}

@@ -1,17 +1,27 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
-import App from "./App";
+// import App from "./App";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 // import UnderConstruction from "./routes/UnderConstruction/UnderConstruction";
+import TopNav from "./components/TopNav/TopNav.js";
+import HomePage from "./HomePage";
 
 ReactDOM.render(
   <React.StrictMode>
     <BrowserRouter>
-      <Routes>
-        {/* <Route path="/" element={<UnderConstruction />} /> */}
-        <Route path="/" element={<App />} />
-      </Routes>
+      <div className="app-container">
+        <header>
+          <TopNav />
+        </header>
+        <Routes>
+          {/* <Route path="/" element={<UnderConstruction />} /> */}
+          {/* <Route path="/" element={<App />} /> */}
+
+          <Route index element={<HomePage />} />
+        </Routes>
+        <footer>SHROHM LOGO</footer>
+      </div>
     </BrowserRouter>
   </React.StrictMode>,
   document.getElementById("root")
