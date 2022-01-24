@@ -1,7 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
-// import App from "./App";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 // import UnderConstruction from "./routes/UnderConstruction/UnderConstruction";
 import TopNav from "./components/TopNav/TopNav.js";
@@ -16,7 +15,6 @@ ReactDOM.render(
         </header>
         <Routes>
           {/* <Route path="/" element={<UnderConstruction />} /> */}
-          {/* <Route path="/" element={<App />} /> */}
 
           <Route index element={<HomePage />} />
         </Routes>

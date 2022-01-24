@@ -1,5 +1,6 @@
 import "./NavLinks.css";
 import DropdownMenu from "../DropdownMenu/DropdownMenu";
+import { useState, useEffect } from "react";
 
 const featuresLinks = [
   { text: "Sporedrops", href: "#sporedrops" },
@@ -21,6 +22,26 @@ const partnershipLinks = [
 ];
 
 function NavLinks() {
+  const [activeMenu, setActive] = useState(null);
+  const onClick = (newActiveMenu) => {
+    if (activeMenu === newActiveMenu) {
+      setActive(null);
+    } else {
+      setActive(newActiveMenu);
+    }
+  };
+
+  useEffect(() => {
+    function clearActiveMenus() {
+      setActive(null);
+    }
+    document.addEventListener("click", clearActiveMenus, true);
+
+    return function cleanup() {
+      document.removeEventListener("click", clearActiveMenus, true);
+    };
+  });
+
   return (
     <div className="nav-links">
       <div className="nav-link">
@@ -32,8 +53,18 @@ function NavLinks() {
           <span>Buy a Mushrohm</span>
         </a>
       </div>
-      <DropdownMenu text="Collections" links={collectionsLinks} />
-      <DropdownMenu text="Features" links={featuresLinks} />
+      <DropdownMenu
+        activeMenu={activeMenu}
+        onClick={onClick}
+        text="Collections"
+        links={collectionsLinks}
+      />
+      <DropdownMenu
+        activeMenu={activeMenu}
+        onClick={onClick}
+        text="Features"
+        links={featuresLinks}
+      />
       <div className="nav-link">
         <a
           href="https://dune.xyz/Mighaz/MUSHROHMS-NFT"
@@ -43,7 +74,12 @@ function NavLinks() {
           <span>Analytics</span>
         </a>
       </div>
-      <DropdownMenu text="Partnerships" links={partnershipLinks} />
+      <DropdownMenu
+        activeMenu={activeMenu}
+        onClick={onClick}
+        text="Partnerships"
+        links={partnershipLinks}
+      />
     </div>
   );
 }

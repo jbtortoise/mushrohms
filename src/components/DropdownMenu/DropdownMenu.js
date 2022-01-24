@@ -1,22 +1,21 @@
 import "./DropdownMenu.css";
-import { useState, useRef } from "react";
 
 function DropdownMenu(props) {
-  const dropdownRef = useRef(null);
-  const [isActive, setIsActive] = useState(false);
-  const onClick = () => setIsActive(!isActive);
+  const isActive = props.text === props.activeMenu;
+
+  const handleClick = (e) => {
+    e.preventDefault();
+    props.onClick(props.text);
+  };
 
   return (
     <div className="menu-container">
-      <div onClick={onClick} className="menu-trigger">
+      <div onClick={handleClick} className="menu-trigger">
         <span className={`link-text ${isActive ? "active" : "inactive"}`}>
           {props.text}
         </span>
       </div>
-      <nav
-        ref={dropdownRef}
-        className={`menu ${isActive ? "active" : "inactive"}`}
-      >
+      <nav className={`menu ${isActive ? "active" : "inactive"}`}>
         <ul>
           {props.links.map((link) => (
             <li key={link.href}>
