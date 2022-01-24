@@ -10,10 +10,13 @@ function DropdownMenu(props) {
 
   return (
     <div className="menu-container">
-      <div onClick={handleClick} className="menu-trigger">
-        <span className={`link-text ${isActive ? "active" : "inactive"}`}>
-          {props.text}
-        </span>
+      <div className="menu-trigger-container">
+        <div onClick={handleClick} className="menu-trigger">
+          <span className={`link-text ${isActive ? "active" : "inactive"}`}>
+            {props.text}
+          </span>
+          <i class="fas fa-chevron-down"></i>
+        </div>
       </div>
       <nav className={`menu ${isActive ? "active" : "inactive"}`}>
         <ul>

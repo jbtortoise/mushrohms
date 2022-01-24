@@ -6,8 +6,9 @@
 .nav-link {
   padding: 0.1rem 1.1rem;
   color: #492b0f;
+  font-size: 1.3rem;
 }
 
 .nav-link:hover span {
-  border-bottom: 1px solid blue;
+  border-bottom: 1px solid #c42126;
 }

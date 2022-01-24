@@ -36,16 +36,19 @@
   display: block;
 }
 
-.menu-trigger {
+.menu-trigger-container {
   padding: 0.1rem 1.1rem;
 }
+
 .menu-trigger:hover {
   cursor: default;
+  font-size: 1.3rem;
+  border-bottom: 1px solid #c42126;
 }
 
-.link-text:hover,
-.link-text.active {
-  border-bottom: 1px solid blue;
+.link-text {
+  font-size: 1.3rem;
+  color: #492b0f;
 }
 
 .menu-item-text {
