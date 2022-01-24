@@ -3,7 +3,7 @@ import DropdownMenu from "../DropdownMenu/DropdownMenu";
 import { useState, useEffect } from "react";
 
 const featuresLinks = [
-  { text: "Sporedrops", href: "#sporedrops" },
+  { text: "Sporedrops", href: "/#sporedrops" },
   { text: "Shrohmie Council", href: "/shrohmie-council" },
   { text: "Metaverse", href: "/treasure-mushrohms" },
   { text: "VR Mushrohm Kingdom", href: "/coming-soon" },
