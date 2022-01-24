@@ -3,8 +3,9 @@ import ReactDOM from "react-dom";
 import "./index.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 // import UnderConstruction from "./routes/UnderConstruction/UnderConstruction";
-import TopNav from "./components/TopNav/TopNav.js";
+import TopNav from "./components/TopNav/TopNav";
 import HomePage from "./HomePage";
+import Footer from "./components/Footer/Footer";
 
 ReactDOM.render(
   <React.StrictMode>
@@ -18,7 +19,9 @@ ReactDOM.render(
 
           <Route index element={<HomePage />} />
         </Routes>
-        <footer>SHROHM LOGO</footer>
+        <footer>
+          <Footer />
+        </footer>
       </div>
     </BrowserRouter>
   </React.StrictMode>,
