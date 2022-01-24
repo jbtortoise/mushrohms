@@ -1,4 +1,9 @@
 .top-nav-container {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+}
+
+.logo-landscape {
+  width: 25%;
 }
