@@ -15,7 +15,9 @@ function DropdownMenu(props) {
           <span className={`link-text ${isActive ? "active" : "inactive"}`}>
             {props.text}
           </span>
-          <i class="fas fa-chevron-down"></i>
+          <div>
+            <i className="fas fa-xs fa-chevron-down"></i>
+          </div>
         </div>
       </div>
       <nav className={`menu ${isActive ? "active" : "inactive"}`}>

@@ -9,6 +9,10 @@
   font-size: 1.3rem;
 }
 
+.nav-link span {
+  border-bottom: 1px solid transparent;
+}
+
 .nav-link:hover span {
-  border-bottom: 1px solid #c42126;
+  border-bottom-color: #c42126;
 }

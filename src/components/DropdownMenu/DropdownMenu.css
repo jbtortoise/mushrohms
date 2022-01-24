@@ -40,10 +40,15 @@
   padding: 0.1rem 1.1rem;
 }
 
+.menu-trigger {
+  display: flex;
+  font-size: 1.3rem;
+  border-bottom: 1px solid transparent;
+}
+
 .menu-trigger:hover {
   cursor: default;
-  font-size: 1.3rem;
-  border-bottom: 1px solid #c42126;
+  border-bottom-color: #c42126;
 }
 
 .link-text {
@@ -54,4 +59,12 @@
 .menu-item-text {
   white-space: nowrap;
   overflow: hidden;
+}
+
+.menu-item-text:hover {
+  border-bottom: 1px solid #c42126;
+}
+
+.fa-chevron-down {
+  padding-left: 2px;
 }
