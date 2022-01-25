@@ -4,8 +4,9 @@ import "./index.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 // import UnderConstruction from "./routes/UnderConstruction/UnderConstruction";
 import TopNav from "./components/TopNav/TopNav";
-import HomePage from "./HomePage";
 import Footer from "./components/Footer/Footer";
+import HomePage from "./HomePage";
+import Metaverse from "./Metaverse";
 
 ReactDOM.render(
   <React.StrictMode>
@@ -18,6 +19,7 @@ ReactDOM.render(
           {/* <Route path="/" element={<UnderConstruction />} /> */}
 
           <Route index element={<HomePage />} />
+          <Route path="/features/metaverse" element={<Metaverse />} />
         </Routes>
         <footer>
           <Footer />

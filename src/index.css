@@ -36,6 +36,7 @@ br {
 .app-container {
   padding: 4rem 7rem;
   background-color: #e8e4cb;
+  min-height: 100vh;
 }
 
 header {

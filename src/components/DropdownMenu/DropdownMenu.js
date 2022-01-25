@@ -1,4 +1,15 @@
 import "./DropdownMenu.css";
+import { Link } from "react-router-dom";
+
+const renderLinkComponent = (link) => {
+  const inside = <span className="link-text menu-item-text">{link.text}</span>;
+
+  if (link.href[0] === "/") {
+    return <Link to={link.href}>{inside}</Link>;
+  } else {
+    return <a href={link.href}>{inside}</a>;
+  }
+};
 
 function DropdownMenu(props) {
   const isActive = props.text === props.activeMenu;
@@ -23,11 +34,7 @@ function DropdownMenu(props) {
       <nav className={`menu ${isActive ? "active" : "inactive"}`}>
         <ul>
           {props.links.map((link) => (
-            <li key={link.href}>
-              <a href={link.href}>
-                <span className="link-text menu-item-text">{link.text}</span>
-              </a>
-            </li>
+            <li key={link.href}>{renderLinkComponent(link)}</li>
           ))}
         </ul>
       </nav>

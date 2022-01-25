@@ -5,7 +5,7 @@ import { useState, useEffect } from "react";
 const featuresLinks = [
   { text: "Sporedrops", href: "/#sporedrops" },
   { text: "Shrohmie Council", href: "/shrohmie-council" },
-  { text: "Metaverse", href: "/treasure-mushrohms" },
+  { text: "Metaverse", href: "/features/metaverse" },
   { text: "VR Mushrohm Kingdom", href: "/coming-soon" },
 ];
 
@@ -56,14 +56,14 @@ function NavLinks() {
       <DropdownMenu
         activeMenu={activeMenu}
         onClick={onClick}
-        text="Collections"
-        links={collectionsLinks}
+        text="Features"
+        links={featuresLinks}
       />
       <DropdownMenu
         activeMenu={activeMenu}
         onClick={onClick}
-        text="Features"
-        links={featuresLinks}
+        text="Collections"
+        links={collectionsLinks}
       />
       <div className="nav-link">
         <a

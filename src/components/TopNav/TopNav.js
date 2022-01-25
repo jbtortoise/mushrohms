@@ -1,14 +1,17 @@
 import "./TopNav.css";
 import NavLinks from "../NavLinks/NavLinks";
+import { Link } from "react-router-dom";
 
 function TopNav() {
   return (
     <div className="top-nav-container">
-      <img
-        id="logo-landscape"
-        src="https://mushrohms.io/images/Logo_Landscape.png"
-        alt="Mushrohms Logo"
-      />
+      <Link className="logo-landscape-link" to="/">
+        <img
+          className="logo-landscape"
+          src="https://mushrohms.io/images/Logo_Landscape.png"
+          alt="Mushrohms Logo"
+        />
+      </Link>
       <NavLinks />
       <div>
         <a target="_blank" rel="noreferrer" href="https://discord.gg/QUtph52z">
