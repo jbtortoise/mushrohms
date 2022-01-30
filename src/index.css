@@ -1,11 +1,19 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
+  font-family: "Crimson Pro", serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   height: 100vh;
+}
+
+@font-face {
+  font-family: funFont;
+  src: url(./RoundedInformal-5lV8.ttf);
+}
+
+.fun-font,
+h2 {
+  font-family: funFont;
 }
 
 code {
