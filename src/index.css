@@ -34,9 +34,20 @@ br {
 }
 
 .app-container {
-  padding: 4rem 7rem;
   background-color: #e8e4cb;
   min-height: 100vh;
+}
+
+@media screen and (min-width: 1300px) {
+  .app-container {
+    padding: 4rem 7rem;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .app-container {
+    padding: 1rem;
+  }
 }
 
 header {
