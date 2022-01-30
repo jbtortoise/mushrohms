@@ -1,16 +1,11 @@
 import "./MobileNav.css";
 import { Link } from "react-router-dom";
-import { useState } from "react";
 
-function MobileNav() {
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
-
-  const toggleMenu = () => setIsMenuOpen(!isMenuOpen);
-
+function MobileNav(props) {
   return (
     <div className="mobile-nav-container">
-      <div className="hamburger-menu" onClick={toggleMenu}>
-        <i class="fas fa-lg fa-bars"></i>
+      <div className="hamburger-menu" onClick={props.toggleMenu}>
+        <i className="fas fa-lg fa-bars"></i>
       </div>
       <div className="mobile-nav-inner-container">
         <Link className="mobile-landscape-link" to="/">
@@ -21,9 +16,6 @@ function MobileNav() {
           />
         </Link>
       </div>
-      {isMenuOpen ? (
-        <div className="mobile-menu-container">Mobile Menu Open!</div>
-      ) : null}
     </div>
   );
 }

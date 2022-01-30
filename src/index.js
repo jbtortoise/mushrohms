@@ -12,9 +12,7 @@ ReactDOM.render(
   <React.StrictMode>
     <BrowserRouter>
       <div className="app-container">
-        <header>
-          <TopNav />
-        </header>
+        <TopNav />
         <Routes>
           {/* <Route path="/" element={<UnderConstruction />} /> */}
 
