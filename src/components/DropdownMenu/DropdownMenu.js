@@ -7,7 +7,11 @@ const renderLinkComponent = (link) => {
   if (link.href[0] === "/") {
     return <Link to={link.href}>{inside}</Link>;
   } else {
-    return <a href={link.href}>{inside}</a>;
+    return (
+      <a href={link.href} target="_blank" rel="noreferrer">
+        {inside}
+      </a>
+    );
   }
 };
 

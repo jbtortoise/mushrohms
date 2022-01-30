@@ -13,12 +13,11 @@ const collectionsLinks = [
   { text: "1st Gen Mushrohms", href: "/#first-gen-shrohms" },
   { text: "Descendant Mushrohms", href: "/#descendant-shrohms" },
   { text: "Mushrohm Friends", href: "/#mushrohm-friends" },
-  { text: "Mushrohm Tribes", href: "/#mushrohm-tribes" },
 ];
 
 const partnershipLinks = [
-  { text: "Olympus Odyssey", href: "/olympus-odyssey" },
-  { text: "Treasure DAO", href: "/treasure-dao" },
+  { text: "Olympus Odyssey", href: "https://www.olympusdao.finance/" },
+  { text: "Treasure DAO", href: "https://www.treasure.lol/" },
 ];
 
 function NavLinks() {
