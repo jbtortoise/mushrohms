@@ -2,7 +2,6 @@ import "./MobileNavMenu.css";
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
-import { render } from "@testing-library/react";
 
 const featuresLinks = [
   { text: "Sporedrops", href: "/#sporedrops" },

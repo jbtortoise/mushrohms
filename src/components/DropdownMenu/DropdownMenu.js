@@ -1,10 +1,12 @@
 import "./DropdownMenu.css";
 import { Link } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
 
 const renderLinkComponent = (link) => {
   const inside = <span className="link-text menu-item-text">{link.text}</span>;
-
-  if (link.href[0] === "/") {
+  if (link.href.startsWith("/#")) {
+    return <HashLink to={link.href}>{inside}</HashLink>;
+  } else if (link.href.startsWith("/")) {
     return <Link to={link.href}>{inside}</Link>;
   } else {
     return (
