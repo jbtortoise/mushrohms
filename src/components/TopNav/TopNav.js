@@ -3,10 +3,19 @@ import MobileNav from "../MobileNav/MobileNav";
 import MobileNavMenu from "../MobileNavMenu/MobileNavMenu";
 import { useState } from "react";
 
-function TopNav() {
+function TopNav(props) {
   const [isMenuOpen, setMenuOpen] = useState(false);
 
-  const toggleMenu = () => setMenuOpen(!isMenuOpen);
+  const toggleMenu = () => {
+    const $body = document.querySelector("body");
+
+    if (!isMenuOpen) {
+      $body.style.overflow = "hidden";
+    } else {
+      $body.style.removeProperty("overflow");
+    }
+    setMenuOpen(!isMenuOpen);
+  };
 
   return (
     <>

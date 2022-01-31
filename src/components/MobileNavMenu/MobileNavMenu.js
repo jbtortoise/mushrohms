@@ -1,6 +1,8 @@
 import "./MobileNavMenu.css";
 import { useState } from "react";
 import { Link } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
+import { render } from "@testing-library/react";
 
 const featuresLinks = [
   { text: "Sporedrops", href: "/#sporedrops" },
@@ -20,14 +22,40 @@ const partnershipLinks = [
   { text: "Treasure DAO", href: "https://www.treasure.lol/" },
 ];
 
-const renderLinkComponent = (link) => {
-  const inside = <span className="link-text menu-item-text">{link.text}</span>;
+const renderLinkComponent = ({ link, ...props }) => {
+  const inside = <div>{link.text}</div>;
 
-  if (link.href[0] === "/") {
-    return <Link to={link.href}>{inside}</Link>;
+  if (link.href.startsWith("/#")) {
+    return (
+      <HashLink
+        onClick={props.toggleMenu}
+        key={link.href}
+        className="mobile-menu-link"
+        to={link.href}
+      >
+        {inside}
+      </HashLink>
+    );
+  } else if (link.href.startsWith("/")) {
+    return (
+      <Link
+        onClick={props.toggleMenu}
+        key={link.href}
+        className="mobile-menu-link"
+        to={link.href}
+      >
+        {inside}
+      </Link>
+    );
   } else {
     return (
-      <a href={link.href} target="_blank" rel="noreferrer">
+      <a
+        key={link.href}
+        className="mobile-menu-link"
+        href={link.href}
+        target="_blank"
+        rel="noreferrer"
+      >
         {inside}
       </a>
     );
@@ -38,18 +66,18 @@ function MenuTrigger(props) {
   return (
     <div>
       <div className="mobile-menu-trigger-container">
-        <div onClick={props.toggleIsActive} className="menu-trigger">
-          <span
-            className={`link-text ${props.isActive ? "active" : "inactive"}`}
-          >
-            Collections
-          </span>
+        <div onClick={props.toggleIsActive} className="mobile-menu-trigger">
+          <span className="mobile-menu-link">{props.label}</span>
           <div>
             <i className="fas fa-xs fa-chevron-down"></i>
           </div>
         </div>
       </div>
-      {props.isActive && <ul>{props.links.map(renderLinkComponent)}</ul>}
+      {props.isActive && (
+        <div className="mobile-menu-link-list">
+          {props.links.map((link) => renderLinkComponent({ ...props, link }))}
+        </div>
+      )}
     </div>
   );
 }
@@ -67,7 +95,7 @@ function MobileNavMenu(props) {
 
   return (
     <div className="mobile-menu-container">
-      <div className="">
+      <div className="mobile-menu-link">
         <a
           href="https://opensea.io/collection/mushrohms"
           target="_blank"
@@ -77,19 +105,21 @@ function MobileNavMenu(props) {
         </a>
       </div>
       <MenuTrigger
+        toggleMenu={props.toggleMenu}
         isActive={activeMenuItem === "collections"}
         toggleIsActive={() => toggleIsActive("collections")}
         label={"Collections"}
         links={collectionsLinks}
       />
-      <div>
-        Collections
-        <ul>
-          <li>1st Gen Mushrohms</li>
-          <li>Descendant Mushrohms</li>
-        </ul>
-      </div>
-      <div className="">
+      <MenuTrigger
+        toggleMenu={props.toggleMenu}
+        isActive={activeMenuItem === "features"}
+        toggleIsActive={() => toggleIsActive("features")}
+        label={"Features"}
+        links={featuresLinks}
+      />
+
+      <div className="mobile-menu-link">
         <a
           href="https://dune.xyz/Mighaz/MUSHROHMS-NFT"
           target="_blank"
@@ -98,6 +128,13 @@ function MobileNavMenu(props) {
           <span>Analytics</span>
         </a>
       </div>
+      <MenuTrigger
+        toggleMenu={props.toggleMenu}
+        isActive={activeMenuItem === "partnerships"}
+        toggleIsActive={() => toggleIsActive("partnerships")}
+        label={"Partnerships"}
+        links={partnershipLinks}
+      />
     </div>
   );
 }

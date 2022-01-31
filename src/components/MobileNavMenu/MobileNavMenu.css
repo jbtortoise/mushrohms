@@ -5,11 +5,12 @@
   padding: 0.7rem;
   position: absolute;
   top: 4rem;
+  bottom: 0;
   left: 0;
   background: #efefea;
   border-radius: 0.3rem;
   box-shadow: 0 1px 8px rgba(0, 0, 0, 0.3);
-  opacity: 0.7;
+  opacity: 0.8;
 }
 
 @media screen and (min-width: 1300px) {
@@ -19,4 +20,19 @@
 }
 
 .mobile-menu-trigger-container {
+}
+
+.mobile-menu-trigger {
+  display: flex;
+  font-size: 1rem;
+}
+
+.mobile-menu-link {
+  padding-bottom: 1rem;
+}
+
+.mobile-menu-link-list {
+  display: flex;
+  flex-direction: column;
+  margin-left: 2rem;
 }

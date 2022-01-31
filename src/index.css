@@ -46,6 +46,10 @@ br {
   min-height: 100vh;
 }
 
+.app-container.lock-scroll {
+  overflow: hidden;
+}
+
 @media screen and (min-width: 1300px) {
   .app-container {
     padding: 4rem 7rem;
