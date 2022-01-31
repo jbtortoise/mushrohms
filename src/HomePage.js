@@ -14,7 +14,8 @@ function HomePage() {
       <div className="page-content">
         <section className="welcome-container">
           <div className="welcome-text-container">
-            <h2 className="welcome-title">Welcome to the Mushrohm Kingdom</h2>
+            <h4 className="welcome-title-1">Welcome to the </h4>
+            <h2 className="welcome-title-2">Mushrohm Kingdom</h2>
             <p className="welcome-text-content">
               At the top of Mt. Olympus grow the fungi of the gods: MUSHROHMS!
               Meditating in infinite ohming bliss, these enlightened creatures
@@ -31,8 +32,8 @@ function HomePage() {
           </div>
         </section>
 
-        <section className="first-gen-container">
-          <h2 id="first-gen-shrohms">1st Gen Mushrohms</h2>
+        <section id="first-gen-shrohms" className="first-gen-container">
+          <h2 className="color-orange">1st Gen Mushrohms</h2>
           <p>
             These 1,500 1st Generation Mushrohms are the premier collection of
             the Mushrohm Kingdom on Ethereum Mainnet. These powerful Shrohms
@@ -73,7 +74,9 @@ function HomePage() {
           </div>
         </section>
         <section className="sporedrops-container">
-          <h2 id="sporedrops">Sporedrops</h2>
+          <h2 className="color-orange" id="sporedrops">
+            Sporedrops
+          </h2>
           <div className="sporedrops-content-container">
             <div className="sporedrops-text-container">
               <p>
@@ -104,7 +107,9 @@ function HomePage() {
           </div>
         </section>
         <section className="descendants-container">
-          <h2 id="descendant-shrohms">Descendants</h2>
+          <h2 className="color-orange" id="descendant-shrohms">
+            Descendants
+          </h2>
           <div className="descendants-content-container">
             <div className="descendants-text-container">
               <p>
@@ -165,7 +170,9 @@ function HomePage() {
           </div>
         </section>
         <section className="mushrohm-friends-container">
-          <h2 id="mushrohm-friends">Mushrohm Friends</h2>
+          <h2 className="color-orange" id="mushrohm-friends">
+            Mushrohm Friends
+          </h2>
           <p>
             Mushrohm Friends is a collection of collaborative NFTs that grow the
             Mushrohm Kingdom in the spirit of (3,3). The first of these collabs
@@ -174,7 +181,9 @@ function HomePage() {
           </p>
         </section>
         <section className="mushrohm-tribes-container">
-          <h2 id="mushrohm-tribes">Mushrohm Tribes</h2>
+          <h2 className="color-orange" id="mushrohm-tribes">
+            Mushrohm Tribes
+          </h2>
           <p>
             Mushrohm Tribes is an interactive PFP project that seeks to expand
             the narrative of the Mushrohm Kingdom. In the early days of Mt.

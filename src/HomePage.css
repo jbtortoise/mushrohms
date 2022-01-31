@@ -3,28 +3,56 @@
   border-radius: 2rem;
 }
 
-.banner-image-container {
-  margin-top: 2rem;
-  margin-bottom: 4rem;
-}
-
 @media screen and (min-width: 1300px) {
+  .banner-image-container {
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+  }
+
   .page-content {
     margin: 0 7rem;
   }
 }
 
+@media screen and (max-width: 1300px) {
+  .banner-image-container {
+    margin-bottom: 1rem;
+  }
+}
+
 /* Welcome Section */
 
+.welcome-title-1 {
+  color: #492b0f;
+}
+
+.welcome-title-2 {
+  color: #c42126;
+  margin-bottom: 0.7rem;
+}
 .welcome-container {
   display: flex;
 }
 
-.welcome-image-container {
-  width: 35%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+@media screen and (max-width: 1300px) {
+  .welcome-container {
+    flex-direction: column;
+  }
+}
+
+@media screen and (min-width: 1300px) {
+  .welcome-image-container {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .welcome-image-container {
+    width: 100%;
+  }
 }
 
 .welcome-image-container img {
@@ -41,10 +69,17 @@
   padding-right: 2rem;
 }
 
-.welcome-text-container {
-  width: 65%;
+@media screen and (max-width: 1300px) {
+  .welcome-text-content {
+    margin-bottom: 1rem;
+  }
 }
 
+@media screen and (min-width: 1300px) {
+  .welcome-text-container {
+    width: 65%;
+  }
+}
 /* First Gen Section */
 
 .first-gen-image-row {
@@ -124,4 +159,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.color-orange {
+  color: #e59623;
 }
