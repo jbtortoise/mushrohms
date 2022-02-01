@@ -10,7 +10,8 @@
   }
 
   .page-content {
-    margin: 0 7rem;
+    margin: 0 6rem;
+    font-size: 1.3rem;
   }
 }
 
@@ -28,8 +29,8 @@
 
 .welcome-title-2 {
   color: #c42126;
-  margin-bottom: 0.7rem;
 }
+
 .welcome-container {
   display: flex;
 }
@@ -62,7 +63,7 @@
 
 .welcome-image-label {
   margin-top: 0.8rem;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
 }
 
 .welcome-text-content {
@@ -86,6 +87,7 @@
   max-width: 100%;
   display: flex;
   justify-content: space-between;
+  margin-bottom: 3rem;
 }
 
 .first-gen-image-container {
@@ -102,23 +104,53 @@
 
 .first-gen-image-label {
   margin-top: 0.8rem;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
+}
+
+.first-gen-text {
+  margin-bottom: 3rem;
 }
 
 /* Sporedrops Section */
 
 .sporedrops-content-container {
   display: flex;
+  margin-bottom: 3rem;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.sporedrops-text-container {
+  width: 50%;
+}
+
+.sporedrops-image-container {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.sporedrops-image-container img {
+  width: 100%;
+  border-radius: 2rem;
 }
 
 .sporedrops-content-container p {
   margin-bottom: 1rem;
 }
 
+.sporedrops-image-label {
+  margin-top: 0.8rem;
+  font-size: 0.9rem;
+}
+
 /* Descendants Section */
 
 .descendants-content-container {
   display: flex;
+  margin-bottom: 3rem;
 }
 
 .descendants-text-container {
@@ -145,13 +177,14 @@
 
 .descendants-image-label {
   margin-top: 0.8rem;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
 }
 
 .descendants-image-row {
   max-width: 100%;
   display: flex;
   justify-content: space-between;
+  margin-bottom: 3rem;
 }
 
 .descendants-image-row .descendants-image-container {
@@ -163,4 +196,8 @@
 
 .color-orange {
   color: #e59623;
+}
+
+.mushrohm-friends-container {
+  margin-bottom: 3rem;
 }

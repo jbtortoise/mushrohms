@@ -34,7 +34,7 @@ function HomePage() {
 
         <section id="first-gen-shrohms" className="first-gen-container">
           <h2 className="color-orange">1st Gen Mushrohms</h2>
-          <p>
+          <p className="first-gen-text">
             These 1,500 1st Generation Mushrohms are the premier collection of
             the Mushrohm Kingdom on Ethereum Mainnet. These powerful Shrohms
             feature many unique properties that qulify for a reproductive
@@ -103,7 +103,13 @@ function HomePage() {
                 new environments and expand their Kingdom!
               </p>
             </div>
-            <div>HADES SPORE GIF</div>
+            <div className="sporedrops-image-container">
+              <img
+                src="https://mushrohms.io/images/hades-spore.gif"
+                alt="Hades Spore"
+              />
+              <div className="sporedrops-image-label">Hades Spore</div>
+            </div>
           </div>
         </section>
         <section className="descendants-container">
