@@ -23,12 +23,27 @@ function HomePage() {
               consciousness of this world and beyond!
             </p>
           </div>
-          <div className="welcome-image-container">
+          {/* <div className="welcome-image-container">
             <img
               src="https://mushrohms.io/images/glow-mushrohm.png"
               alt="Glow Mushrohm"
             />
             <div className="welcome-image-label">Glow Mushrohm</div>
+          </div> */}
+          <div className="welcome-image-container">
+            <video
+              controls
+              controlslist="nodownload"
+              disablePictureInPicture
+              className="glow-mp4"
+              poster="https://mushrohms.io/images/glow-mushrohm.png"
+            >
+              <source
+                src="https://mushrohms.mypinata.cloud/ipfs/QmQjiYprtgJh9Ex26Eii3XtwqGAJfhcLmun4CrVYEHjTcx/MP4/Glow.Mushrohm.mp4"
+                type="video/mp4"
+              ></source>
+              Sorry, this browser doesn't support embedded videos.
+            </video>
           </div>
         </section>
 

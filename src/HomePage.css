@@ -38,6 +38,7 @@
 @media screen and (max-width: 1300px) {
   .welcome-container {
     flex-direction: column;
+    margin-bottom: 1rem;
   }
 }
 
@@ -56,7 +57,8 @@
   }
 }
 
-.welcome-image-container img {
+.welcome-image-container img,
+.welcome-image-container video {
   width: 100%;
   border-radius: 2rem;
 }
@@ -64,6 +66,7 @@
 .welcome-image-label {
   margin-top: 0.8rem;
   font-size: 0.9rem;
+  text-align: center;
 }
 
 .welcome-text-content {
@@ -105,6 +108,7 @@
 .first-gen-image-label {
   margin-top: 0.8rem;
   font-size: 0.9rem;
+  text-align: center;
 }
 
 .first-gen-text {
@@ -125,7 +129,7 @@
 }
 
 .sporedrops-image-container {
-  width: 30%;
+  width: 35%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -144,6 +148,23 @@
 .sporedrops-image-label {
   margin-top: 0.8rem;
   font-size: 0.9rem;
+  text-align: center;
+}
+
+@media screen and (max-width: 1300px) {
+  .sporedrops-content-container {
+    flex-direction: column;
+  }
+  .sporedrops-text-container {
+    width: 100%;
+  }
+  .sporedrops-image-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 }
 
 /* Descendants Section */
@@ -178,6 +199,7 @@
 .descendants-image-label {
   margin-top: 0.8rem;
   font-size: 0.9rem;
+  text-align: center;
 }
 
 .descendants-image-row {
