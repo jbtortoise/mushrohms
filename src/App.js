@@ -6,6 +6,7 @@ import TopNav from "./components/TopNav/TopNav";
 import Footer from "./components/Footer/Footer";
 import HomePage from "./HomePage";
 import Metaverse from "./Metaverse";
+import VRKingdom from "./VRKingdom";
 
 function App() {
   return (
@@ -15,6 +16,9 @@ function App() {
       <Switch>
         <Route path="/features/metaverse">
           <Metaverse />
+        </Route>
+        <Route path="/features/vr-kingdom">
+          <VRKingdom />
         </Route>
         <Route path="/">
           <HomePage />

@@ -6,7 +6,7 @@ const featuresLinks = [
   { text: "Sporedrops", href: "/#sporedrops" },
   { text: "Shrohmie Council", href: "/shrohmie-council" },
   { text: "Metaverse", href: "/features/metaverse" },
-  { text: "VR Mushrohm Kingdom", href: "/coming-soon" },
+  { text: "VR Mushrohm Kingdom", href: "/features/vr-kingdom" },
 ];
 
 const collectionsLinks = [
