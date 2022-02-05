@@ -6,6 +6,7 @@ function Footer() {
       <div className="footer-divider"></div>
       <div className="footer-container">
         <img
+          className="footer-shrohm-logo"
           src="https://mushrohms.io/images/Logo-04.png"
           alt="Mushrohms Logo"
         />

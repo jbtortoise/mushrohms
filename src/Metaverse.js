@@ -61,7 +61,7 @@ function Metaverse() {
               src="https://mushrohms.io/images/amanita-treasure-prototype.png"
               alt="Fly Amanita Mushrohm"
             />
-            <div className="descendants-image-label">Fly Amanita Mushrohm</div>
+            <div className="image-label">Fly Amanita Mushrohm</div>
           </div>
           <div className="descendants-image-container">
             <img
@@ -69,7 +69,7 @@ function Metaverse() {
               src="https://mushrohms.io/images/glow-treasure-prototype.png"
               alt="Glow Mushrohm"
             />
-            <div className="descendants-image-label">Glow Mushrohm</div>
+            <div className="image-label">Glow Mushrohm</div>
           </div>
           <div className="descendants-image-container">
             <img
@@ -77,9 +77,7 @@ function Metaverse() {
               src="https://mushrohms.io/images/golden-teacher-treasure-prototype.png"
               alt="Golden Golden Teacher Mushrohm"
             />
-            <div className="descendants-image-label">
-              Golden Golden Teacher Mushrohm
-            </div>
+            <div className="image-label">Golden Golden Teacher Mushrohm</div>
           </div>
         </div>
       </div>
