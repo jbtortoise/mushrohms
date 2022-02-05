@@ -1,0 +1,24 @@
+.highlight-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 2.5rem 0;
+}
+
+.sporepower-shrohm {
+  width: 25vw;
+  height: fit-content;
+  border-radius: 1.3rem;
+}
+
+.highlight-text {
+  width: 35vw;
+  font-size: 3.1vw;
+}
+
+.transmutation-p2 {
+  margin-bottom: 2.5rem;
+}
+
+.transmutation-p3 {
+  margin-bottom: 2.5rem;
+}
