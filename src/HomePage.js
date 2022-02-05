@@ -33,7 +33,7 @@ function HomePage() {
           <div className="welcome-image-container">
             <video
               controls
-              controlslist="nodownload"
+              controlsList="nodownload"
               disablePictureInPicture
               className="glow-mp4"
               poster="https://mushrohms.io/images/glow-mushrohm.png"

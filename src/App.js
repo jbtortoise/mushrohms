@@ -7,6 +7,7 @@ import Footer from "./components/Footer/Footer";
 import HomePage from "./HomePage";
 import Metaverse from "./Metaverse";
 import VRKingdom from "./VRKingdom";
+import ShrohmCouncil from "./ShrohmCouncil";
 
 function App() {
   return (
@@ -19,6 +20,9 @@ function App() {
         </Route>
         <Route path="/features/vr-kingdom">
           <VRKingdom />
+        </Route>
+        <Route path="/features/shrohmie-council">
+          <ShrohmCouncil />
         </Route>
         <Route path="/">
           <HomePage />

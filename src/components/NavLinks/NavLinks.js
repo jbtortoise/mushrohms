@@ -1,24 +1,11 @@
 import "./NavLinks.css";
 import DropdownMenu from "../DropdownMenu/DropdownMenu";
 import { useState, useEffect } from "react";
-
-const featuresLinks = [
-  { text: "Sporedrops", href: "/#sporedrops" },
-  { text: "Shrohmie Council", href: "/shrohmie-council" },
-  { text: "Metaverse", href: "/features/metaverse" },
-  { text: "VR Mushrohm Kingdom", href: "/features/vr-kingdom" },
-];
-
-const collectionsLinks = [
-  { text: "1st Gen Mushrohms", href: "/#first-gen-shrohms" },
-  { text: "Descendant Mushrohms", href: "/#descendant-shrohms" },
-  { text: "Mushrohm Friends", href: "/#mushrohm-friends" },
-];
-
-const partnershipLinks = [
-  { text: "Olympus Odyssey", href: "https://www.olympusdao.finance/" },
-  { text: "Treasure DAO", href: "https://www.treasure.lol/" },
-];
+import {
+  featuresLinks,
+  collectionsLinks,
+  partnershipLinks,
+} from "../../constants";
 
 function NavLinks() {
   const [activeMenu, setActive] = useState(null);
