@@ -21,8 +21,8 @@ function DropdownMenu(props) {
   const isActive = props.text === props.activeMenu;
 
   const handleClick = (e) => {
-    e.preventDefault();
-    props.onClick(props.text);
+    e.stopPropagation();
+    props.handleClick(props.text);
   };
 
   return (

@@ -22,7 +22,9 @@ const partnershipLinks = [
 
 function NavLinks() {
   const [activeMenu, setActive] = useState(null);
-  const onClick = (newActiveMenu) => {
+  const handleClick = (newActiveMenu) => {
+    console.log(arguments);
+    console.log(newActiveMenu, activeMenu);
     if (activeMenu === newActiveMenu) {
       setActive(null);
     } else {
@@ -34,10 +36,10 @@ function NavLinks() {
     function clearActiveMenus() {
       setActive(null);
     }
-    document.addEventListener("click", clearActiveMenus, true);
+    document.addEventListener("click", clearActiveMenus);
 
     return function cleanup() {
-      document.removeEventListener("click", clearActiveMenus, true);
+      document.removeEventListener("click", clearActiveMenus);
     };
   });
 
@@ -54,13 +56,13 @@ function NavLinks() {
       </div>
       <DropdownMenu
         activeMenu={activeMenu}
-        onClick={onClick}
+        handleClick={handleClick}
         text="Features"
         links={featuresLinks}
       />
       <DropdownMenu
         activeMenu={activeMenu}
-        onClick={onClick}
+        handleClick={handleClick}
         text="Collections"
         links={collectionsLinks}
       />
@@ -75,7 +77,7 @@ function NavLinks() {
       </div>
       <DropdownMenu
         activeMenu={activeMenu}
-        onClick={onClick}
+        handleClick={handleClick}
         text="Partnerships"
         links={partnershipLinks}
       />
