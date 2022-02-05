@@ -44,6 +44,7 @@ function HomePage() {
               ></source>
               Sorry, this browser doesn't support embedded videos.
             </video>
+            <div className="image-label">Glow Mushrohm</div>
           </div>
         </section>
 
@@ -68,7 +69,7 @@ function HomePage() {
                 src="https://mushrohms.io/images/chanterelle-mushrohm.png"
                 alt="Chanterelle Mushrohm"
               />
-              <div className="first-gen-image-label">Chanterelle Mushrohm</div>
+              <div className="image-label">Chanterelle Mushrohm</div>
             </div>
             <div className="first-gen-image-container">
               <img
@@ -76,7 +77,7 @@ function HomePage() {
                 src="https://mushrohms.io/images/pe-mushrohm.png"
                 alt="PE Mushrohm"
               />
-              <div className="first-gen-image-label">P.E. Mushrohm</div>
+              <div className="image-label">P.E. Mushrohm</div>
             </div>
             <div className="first-gen-image-container">
               <img
@@ -84,7 +85,7 @@ function HomePage() {
                 src="https://mushrohms.io/images/cerberus-mushrohm.png"
                 alt="Cerberus Mushrohm"
               />
-              <div className="first-gen-image-label">Cerberus Mushrohm</div>
+              <div className="image-label">Cerberus Mushrohm</div>
             </div>
           </div>
         </section>
@@ -123,7 +124,7 @@ function HomePage() {
                 src="https://mushrohms.io/images/hades-spore.gif"
                 alt="Hades Spore"
               />
-              <div className="sporedrops-image-label">Hades Spore</div>
+              <div className="image-label">Hades Spore</div>
             </div>
           </div>
         </section>
@@ -154,9 +155,7 @@ function HomePage() {
                 src="https://mushrohms.io/images/soul-harvest-mushrohm.png"
                 alt="Cerberus Mushrohm"
               />
-              <div className="descendants-image-label">
-                Soul Harvest Mushrohm
-              </div>
+              <div className="image-label">Soul Harvest Mushrohm</div>
             </div>
           </div>
           <div className="descendants-image-row">
@@ -166,9 +165,7 @@ function HomePage() {
                 src="https://mushrohms.io/images/clear-light-mushrohm.png"
                 alt="Clear Light Mushrohm"
               />
-              <div className="descendants-image-label">
-                Clear Light Mushrohm
-              </div>
+              <div className="image-label">Clear Light Mushrohm</div>
             </div>
             <div className="descendants-image-container">
               <img
@@ -176,7 +173,7 @@ function HomePage() {
                 src="https://mushrohms.io/images/river-styx-mushrohm.png"
                 alt="River Styx Mushrohm"
               />
-              <div className="descendants-image-label">River Styx Mushrohm</div>
+              <div className="image-label">River Styx Mushrohm</div>
             </div>
             <div className="descendants-image-container">
               <img
@@ -184,9 +181,7 @@ function HomePage() {
                 src="https://mushrohms.io/images/bearded-heph-mushrohm.png"
                 alt="Bearded Heph Mushrohm"
               />
-              <div className="descendants-image-label">
-                Bearded Heph Mushrohm
-              </div>
+              <div className="image-label">Bearded Heph Mushrohm</div>
             </div>
           </div>
         </section>

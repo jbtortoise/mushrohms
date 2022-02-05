@@ -63,12 +63,6 @@
   border-radius: 2rem;
 }
 
-.welcome-image-label {
-  margin-top: 0.8rem;
-  font-size: 0.9rem;
-  text-align: center;
-}
-
 .welcome-text-content {
   padding-right: 2rem;
 }
@@ -105,12 +99,6 @@
   border-radius: 1.2rem;
 }
 
-.first-gen-image-label {
-  margin-top: 0.8rem;
-  font-size: 0.9rem;
-  text-align: center;
-}
-
 .first-gen-text {
   margin-bottom: 3rem;
 }
@@ -125,7 +113,7 @@
 }
 
 .sporedrops-text-container {
-  width: 50%;
+  width: 62%;
 }
 
 .sporedrops-image-container {
@@ -143,12 +131,6 @@
 
 .sporedrops-content-container p {
   margin-bottom: 1rem;
-}
-
-.sporedrops-image-label {
-  margin-top: 0.8rem;
-  font-size: 0.9rem;
-  text-align: center;
 }
 
 @media screen and (max-width: 1300px) {
@@ -172,10 +154,11 @@
 .descendants-content-container {
   display: flex;
   margin-bottom: 3rem;
+  justify-content: space-between;
 }
 
 .descendants-text-container {
-  width: 65%;
+  width: 62%;
 }
 
 .descendants-text-container p {
@@ -194,12 +177,6 @@
 .descendants-image-container img {
   width: 100%;
   border-radius: 2rem;
-}
-
-.descendants-image-label {
-  margin-top: 0.8rem;
-  font-size: 0.9rem;
-  text-align: center;
 }
 
 .descendants-image-row {
@@ -222,4 +199,10 @@
 
 .mushrohm-friends-container {
   margin-bottom: 3rem;
+}
+
+.image-label {
+  margin-top: 0.8rem;
+  font-size: 0.8rem;
+  text-align: center;
 }
