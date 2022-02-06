@@ -1,4 +1,4 @@
-@media screen and (min-width: 1300px) {
+/* @media screen and (min-width: 1300px) {
   .coming-soon-image-container {
     margin-top: 2rem;
     margin-bottom: 4rem;
@@ -23,10 +23,15 @@
     opacity: 0.9;
     color: #c42126;
   }
+} */
 
-  .coming-soon-overlay-text {
-    color: #c42126;
-    /* position: absolute; */
-    top: 50%;
-  }
+.coming-soon-image-container {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  /* position: relative; */
+}
+
+.coming-soon-overlay {
+  margin-top: 2rem;
+  color: #c42126;
 }
