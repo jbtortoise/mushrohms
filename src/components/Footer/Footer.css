@@ -30,6 +30,7 @@
 
 .footer-shrohm-logo {
   height: 10rem;
+  width: 10rem;
 }
 
 @media screen and (max-width: 1300px) {
@@ -44,7 +45,7 @@
 
   .footer-shrohm-logo {
     height: 8rem;
-    width: fit-content;
+    width: 8rem;
     margin-bottom: 1rem;
   }
 
