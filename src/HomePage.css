@@ -193,6 +193,17 @@
   align-items: center;
 }
 
+@media screen and (max-width: 1300px) {
+  .descendants-content-container {
+    flex-direction: column;
+  }
+
+  .descendants-image-container,
+  .descendants-text-container {
+    width: 100%;
+  }
+}
+
 .color-orange {
   color: #e59623;
 }

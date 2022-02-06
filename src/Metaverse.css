@@ -22,3 +22,18 @@
 .transmutation-p3 {
   margin-bottom: 2.5rem;
 }
+
+@media screen and (max-width: 1300px) {
+  .sporepower-shrohm {
+    width: 100%;
+  }
+
+  .highlight-text {
+    width: 100%;
+    font-size: 1.7rem;
+  }
+
+  .highlight-container {
+    flex-direction: column-reverse;
+  }
+}
