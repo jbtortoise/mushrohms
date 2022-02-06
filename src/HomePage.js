@@ -66,7 +66,7 @@ function HomePage() {
             <div className="first-gen-image-container">
               <img
                 className="first-gen-image"
-                src="https://mushrohms.io/images/chanterelle-mushrohm.png"
+                src="https://mushrohms.io/images/mushrohm-chanterelle.png"
                 alt="Chanterelle Mushrohm"
               />
               <div className="image-label">Chanterelle Mushrohm</div>

@@ -54,26 +54,26 @@ function Metaverse() {
           will have a unique place in the Bridgeworld ecosystem. These exclusive
           Arbitrum Treasure Mushrohms will be whitelisted through a process TBA.
         </p>
-        <div className="descendants-image-row">
-          <div className="descendants-image-container">
+        <div className="first-gen-image-row">
+          <div className="first-gen-image-container">
             <img
-              className=""
+              className="first-gen-image"
               src="https://mushrohms.io/images/amanita-treasure-prototype.png"
               alt="Fly Amanita Mushrohm"
             />
             <div className="image-label">Fly Amanita Mushrohm</div>
           </div>
-          <div className="descendants-image-container">
+          <div className="first-gen-image-container">
             <img
-              className=""
+              className="first-gen-image"
               src="https://mushrohms.io/images/glow-treasure-prototype.png"
               alt="Glow Mushrohm"
             />
             <div className="image-label">Glow Mushrohm</div>
           </div>
-          <div className="descendants-image-container">
+          <div className="first-gen-image-container">
             <img
-              className=""
+              className="first-gen-image"
               src="https://mushrohms.io/images/golden-teacher-treasure-prototype.png"
               alt="Golden Golden Teacher Mushrohm"
             />

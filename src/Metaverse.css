@@ -31,9 +31,23 @@
   .highlight-text {
     width: 100%;
     font-size: 1.7rem;
+    margin-bottom: 2rem;
   }
 
   .highlight-container {
     flex-direction: column-reverse;
+    margin: 2rem 0;
+  }
+
+  .transmutation-p2 {
+    margin-bottom: 2rem;
+  }
+
+  .transmutation-p3 {
+    margin-bottom: 2rem;
+  }
+
+  .page-content h2 {
+    white-space: normal;
   }
 }
