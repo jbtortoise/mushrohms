@@ -11,7 +11,7 @@ function Footer() {
           alt="Mushrohms Logo"
         />
         <div className="footer-text-container">
-          <div>
+          <div className="footer-socials-container">
             <a
               target="_blank"
               rel="noreferrer"
@@ -57,8 +57,12 @@ function Footer() {
               />
             </a>
           </div>
-          <div className="footer-copyright">&copy; 2022 Mushrohms</div>
-          <div className="footer-created-by">Created by Nenpools with love</div>
+          <div>
+            <div className="footer-copyright">&copy; 2022 Mushrohms</div>
+            <div className="footer-created-by">
+              Created by Nenpools with love
+            </div>
+          </div>
         </div>
       </div>
     </>
