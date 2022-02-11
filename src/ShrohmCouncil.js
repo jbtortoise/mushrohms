@@ -30,6 +30,22 @@ function ShromhCouncil() {
           reward holders of a certain number of Shrohmie Caps with unique perks
           and airdrops. Shrohm on frens!
         </p>
+        <img
+          src="https://mushrohms.io/images/shrohmie-cap-purple.gif"
+          alt="Purple Poap Cap"
+        />
+        <img
+          src="https://mushrohms.io/images/shrohmie-cap-green.gif"
+          alt="Green Poap Cap"
+        />
+        <img
+          src="https://mushrohms.io/images/shrohmie-cap-blue.gif"
+          alt="Blue Poap Cap"
+        />
+        <img
+          src="https://mushrohms.io/images/shrohmie-cap-yellow.gif"
+          alt="Yellow Poap Cap"
+        />
       </div>
     </div>
   );
