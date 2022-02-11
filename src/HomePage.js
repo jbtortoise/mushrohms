@@ -1,5 +1,6 @@
 import "./index.css";
 import "./HomePage.css";
+import { Link } from "react-router-dom";
 
 function HomePage() {
   return (
@@ -23,19 +24,14 @@ function HomePage() {
               consciousness of this world and beyond!
             </p>
           </div>
-          {/* <div className="welcome-image-container">
-            <img
-              src="https://mushrohms.io/images/glow-mushrohm.png"
-              alt="Glow Mushrohm"
-            />
-            <div className="welcome-image-label">Glow Mushrohm</div>
-          </div> */}
           <div className="welcome-image-container">
             <video
               controls
               controlsList="nodownload"
               disablePictureInPicture
               className="glow-mp4"
+              autoPlay
+              muted
               poster="https://mushrohms.io/images/glow-mushrohm.png"
             >
               <source
@@ -54,13 +50,19 @@ function HomePage() {
             These 1,500 1st Generation Mushrohms are the premier collection of
             the Mushrohm Kingdom on Ethereum Mainnet. These powerful Shrohms
             feature many unique properties that qulify for a reproductive
-            Sporedrop mechanism, as well as allow membership access to the
-            Shrohmie Council, where members are able to contribute to the
-            direction of the project, help manage the Shrohmie Treasury, and
-            receive access to exclusive discord channels. Soon the 1st Gen
-            Mushrohms will be able to join the Treasure DAO Bridgeworld
-            metaverse via a unique reversible NFT Trasmutation Bridge from Eth
-            Mainnet to Arbitrum Network.
+            Sporedrop mechanism, as well as allow membership access to the{" "}
+            <Link to="/features/shrohmie-council" className="inline-link">
+              Shrohmie Council
+            </Link>
+            , where members are able to contribute to the direction of the
+            project, help manage the Shrohmie Treasury, and receive access to
+            exclusive discord channels. Soon the 1st Gen Mushrohms will be able
+            to join the Treasure DAO Bridgeworld metaverse via a unique
+            reversible NFT{" "}
+            <Link to="/features/bridgeworld" className="inline-link">
+              Trasmutation Bridge
+            </Link>{" "}
+            from Eth Mainnet to Arbitrum Network.
           </p>
           <div className="first-gen-image-row">
             <div className="first-gen-image-container">
@@ -150,11 +152,22 @@ function HomePage() {
               </p>
             </div>
             <div className="descendants-image-container">
-              <img
-                className="descendants-image"
-                src="https://mushrohms.io/images/soul-harvest-mushrohm.png"
-                alt="Cerberus Mushrohm"
-              />
+              <video
+                controls
+                controlsList="nodownload"
+                disablePictureInPicture
+                className="glow-mp4"
+                autoPlay
+                loop
+                muted
+                poster="https://mushrohms.io/images/soul-harvest-mushrohm.png"
+              >
+                <source
+                  src="https://threethree.mypinata.cloud/ipfs/Qma9s32ZaSEvKxeN1BuinpRTKuNcyozcDPqsKSM3HCYtNZ/Hades_MP4/SoulHarvest.Mushrohm.mp4"
+                  type="video/mp4"
+                ></source>
+                Sorry, this browser doesn't support embedded videos.
+              </video>
               <div className="image-label">Soul Harvest Mushrohm</div>
             </div>
           </div>

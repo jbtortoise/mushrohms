@@ -24,6 +24,7 @@
 
 .footer-copyright,
 .footer-created-by {
+  font-size: 0.8rem;
   margin-top: 1rem;
   text-align: right;
 }

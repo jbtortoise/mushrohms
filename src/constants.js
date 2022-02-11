@@ -1,7 +1,7 @@
 export let featuresLinks = [
   { text: "Sporedrops", href: "/#sporedrops" },
   { text: "Shrohmie Council", href: "/features/shrohmie-council" },
-  { text: "Metaverse", href: "/features/metaverse" },
+  { text: "Bridgeworld", href: "/features/bridgeworld" },
   { text: "VR Mushrohm Kingdom", href: "/features/vr-kingdom" },
 ];
 

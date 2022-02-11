@@ -1,6 +1,6 @@
-import "./Metaverse.css";
+import "./Bridgeworld.css";
 
-function Metaverse() {
+function Bridgeworld() {
   return (
     <div className="">
       <div className="banner-image-container">
@@ -85,4 +85,4 @@ function Metaverse() {
   );
 }
 
-export default Metaverse;
+export default Bridgeworld;
