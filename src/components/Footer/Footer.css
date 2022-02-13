@@ -36,7 +36,7 @@
 
 @media screen and (max-width: 1300px) {
   .footer-divider {
-    margin: 4rem 0;
+    margin: 1rem 0;
   }
 
   .footer-container {
@@ -45,8 +45,8 @@
   }
 
   .footer-shrohm-logo {
-    height: 8rem;
-    width: 8rem;
+    height: 6rem;
+    width: 6rem;
     margin-bottom: 1rem;
   }
 

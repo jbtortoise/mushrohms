@@ -68,7 +68,7 @@ function HomePage() {
             <div className="first-gen-image-container">
               <img
                 className="first-gen-image"
-                src="https://mushrohms.io/images/mushrohm-chanterelle.png"
+                src="https://mushrohms.io/images/chanterelle-mushrohm.png"
                 alt="Chanterelle Mushrohm"
               />
               <div className="image-label">Chanterelle Mushrohm</div>
@@ -191,7 +191,7 @@ function HomePage() {
             <div className="descendants-image-container">
               <img
                 className=""
-                src="https://mushrohms.io/images/bearded-heph-mushrohm.png"
+                src="https://mushrohms.io/images/beardedheph-mushrohm.png"
                 alt="Bearded Heph Mushrohm"
               />
               <div className="image-label">Bearded Heph Mushrohm</div>

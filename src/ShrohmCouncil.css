@@ -1,3 +1,14 @@
 .shrohm-council-p1 {
   margin-bottom: 2.5rem;
 }
+
+.poap-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 2rem;
+}
+
+.poap-cap {
+  width: 22%;
+}

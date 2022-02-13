@@ -54,7 +54,7 @@ function Bridgeworld() {
           will have a unique place in the Bridgeworld ecosystem. These exclusive
           Arbitrum Treasure Mushrohms will be whitelisted through a process TBA.
         </p>
-        <div className="first-gen-image-row">
+        <div className="bridgeworld-image-row">
           <div className="first-gen-image-container">
             <img
               className="first-gen-image"

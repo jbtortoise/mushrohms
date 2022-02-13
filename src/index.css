@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  font-family: "Crimson Pro", serif;
+  font-family: "Raleway", "Crimson Pro", serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   height: 100vh;
@@ -66,7 +66,7 @@ br {
 }
 
 .app-container {
-  background-color: #e8e4cb;
+  background-color: #fffdef;
   min-height: 100vh;
 }
 
