@@ -23,7 +23,7 @@ function Bridgeworld() {
         <div className="highlight-container">
           <img
             className="sporepower-shrohm"
-            src="https://mushrohms.io/images/glow-shrohm-sporepower.png"
+            src="https://mushrohms.io/images/stake-for-sporepower.jpeg"
             alt="Treasure Night Shrohm"
           />
           <p className="highlight-text">

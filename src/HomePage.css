@@ -6,7 +6,7 @@
 @media screen and (min-width: 1300px) {
   .banner-image-container {
     margin-top: 2rem;
-    margin-bottom: 4rem;
+    margin-bottom: 2rem;
   }
 
   .page-content {
@@ -17,6 +17,7 @@
 
 @media screen and (max-width: 1300px) {
   .banner-image-container {
+    margin-top: 1rem;
     margin-bottom: 1rem;
   }
 }
@@ -110,52 +111,6 @@
 
 .first-gen-text {
   margin-bottom: 3rem;
-}
-
-/* Sporedrops Section */
-
-.sporedrops-content-container {
-  display: flex;
-  margin-bottom: 3rem;
-  justify-content: space-between;
-  align-items: flex-start;
-}
-
-.sporedrops-text-container {
-  width: 62%;
-}
-
-.sporedrops-image-container {
-  width: 35%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.sporedrops-image-container img {
-  width: 100%;
-  border-radius: 2rem;
-}
-
-.sporedrops-content-container p {
-  margin-bottom: 1rem;
-}
-
-@media screen and (max-width: 1300px) {
-  .sporedrops-content-container {
-    flex-direction: column;
-  }
-  .sporedrops-text-container {
-    width: 100%;
-  }
-  .sporedrops-image-container {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
 }
 
 /* Descendants Section */

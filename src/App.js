@@ -8,6 +8,7 @@ import HomePage from "./HomePage";
 import Bridgeworld from "./Bridgeworld";
 import VRKingdom from "./VRKingdom";
 import ShrohmCouncil from "./ShrohmCouncil";
+import Sporedrops from "./Sporedrops";
 import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
@@ -25,6 +26,9 @@ function App() {
         </Route>
         <Route path="/features/shrohmie-council">
           <ShrohmCouncil />
+        </Route>
+        <Route path="/features/sporedrops">
+          <Sporedrops />
         </Route>
         <Route path="/">
           <HomePage />
