@@ -58,10 +58,8 @@ function Footer() {
             </a>
           </div>
           <div>
-            <div className="footer-copyright">&copy; 2022 Mushrohms</div>
-            <div className="footer-created-by">
-              Created by Nenpools with love
-            </div>
+            <div className="footer-copyright">&copy; 2021 Mushrohms</div>
+            <div className="footer-created-by">{"<3 Nenpools"}</div>
           </div>
         </div>
       </div>

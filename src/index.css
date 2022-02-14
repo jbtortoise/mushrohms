@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  font-weight: 300;
   font-family: "Raleway", "Crimson Pro", serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -26,6 +27,7 @@ h4 {
 h2 {
   font-size: 3rem;
   margin-bottom: 1rem;
+  font-weight: 100;
 }
 
 @media screen and (max-width: 1300px) {

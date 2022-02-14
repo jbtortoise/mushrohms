@@ -62,7 +62,16 @@ function HomePage() {
             <Link to="/features/bridgeworld" className="inline-link">
               Trasmutation Bridge
             </Link>{" "}
-            from Eth Mainnet to Arbitrum Network.
+            from Eth Mainnet to Arbitrum Network. View the collection{" "}
+            <a
+              className="inline-link"
+              href="https://opensea.io/collection/mushrohms"
+              target="_blank"
+              rel="noreferrer"
+            >
+              here
+            </a>
+            .
           </p>
           <div className="first-gen-image-row">
             <div className="first-gen-image-container">
@@ -109,7 +118,16 @@ function HomePage() {
               <p>
                 Descendant Mushrohms qualify holders for exclusive whitelists
                 within the Olympus Odyssey ecosystem, as well as a unique V4
-                Pool Together function.
+                Pool Together function. View the collection{" "}
+                <a
+                  className="inline-link"
+                  href="https://opensea.io/collection/mushrohms-descendants"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  here
+                </a>
+                .
               </p>
             </div>
             <div className="descendants-image-container">
@@ -158,17 +176,6 @@ function HomePage() {
               <div className="image-label">Bearded Heph Mushrohm</div>
             </div>
           </div>
-        </section>
-        <section className="mushrohm-friends-container">
-          <h2 className="color-orange" id="mushrohm-friends">
-            Mushrohm Friends
-          </h2>
-          <p>
-            Mushrohm Friends is a collection of collaborative NFTs that grow the
-            Mushrohm Kingdom in the spirit of (3,3). The first of these collabs
-            is with Apeliens NFT project, with many more in the works. Stay
-            tuned friends!
-          </p>
         </section>
       </div>
     </>

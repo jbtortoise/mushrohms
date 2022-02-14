@@ -15,12 +15,12 @@ function VRKingdom() {
       </div>
 
       <div className="page-content">
-        <p>
+        {/* <p>
           Soon shrohmies will be able to take a fully immersive trip to the
           Mushrohm Kingdom. This 3D world will serve as a hub for Mushrohm
           metaverse activities, as well as a place for Shrohmies to hang out and
           explore.
-        </p>
+        </p> */}
       </div>
     </div>
   );

@@ -1,5 +1,12 @@
 .shrohm-council-p1 {
-  margin-bottom: 2.5rem;
+  margin-bottom: 2rem;
+  font-weight: 500;
+  color: #c42126;
+  font-size: 1.4rem;
+}
+
+.shrohm-council-p2 {
+  margin-bottom: 2rem;
 }
 
 .poap-container {
@@ -11,4 +18,10 @@
 
 .poap-cap {
   width: 22%;
+}
+
+@media screen and (max-width: 1300px) {
+  .shrohm-council-p1 {
+    font-size: 1.2rem;
+  }
 }

@@ -8,7 +8,6 @@ export let featuresLinks = [
 export let collectionsLinks = [
   { text: "1st Gen Mushrohms", href: "/#first-gen-shrohms" },
   { text: "Descendant Mushrohms", href: "/#descendant-shrohms" },
-  { text: "Mushrohm Friends", href: "/#mushrohm-friends" },
 ];
 
 export let partnershipLinks = [
