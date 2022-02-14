@@ -19,10 +19,10 @@ function TopNav(props) {
 
   return (
     <>
-      {isMenuOpen && <MobileNavMenu toggleMenu={toggleMenu} />}
       <header>
         <DesktopNav />
         <MobileNav toggleMenu={toggleMenu} />
+        {isMenuOpen && <MobileNavMenu toggleMenu={toggleMenu} />}
       </header>
     </>
   );
