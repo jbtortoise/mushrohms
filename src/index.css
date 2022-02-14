@@ -30,7 +30,7 @@ h2 {
 
 @media screen and (max-width: 1300px) {
   h2 {
-    font-size: 9vw;
+    font-size: 7vw;
     white-space: nowrap;
     margin-bottom: 1rem;
   }

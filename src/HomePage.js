@@ -170,21 +170,6 @@ function HomePage() {
             tuned friends!
           </p>
         </section>
-        <section className="mushrohm-tribes-container">
-          <h2 className="color-orange" id="mushrohm-tribes">
-            Mushrohm Tribes
-          </h2>
-          <p>
-            Mushrohm Tribes is an interactive PFP project that seeks to expand
-            the narrative of the Mushrohm Kingdom. In the early days of Mt.
-            Olympus, the Mushrohm Tribes lived in harmony with the Shrohms that
-            grew throughout the mountain. Four unique tribes formed: the Dawn
-            Tribe, the Night Tribe, the Prometheus Tribe, and the Hades Tribe.
-            Each with their own abilities and values, the fascinating lore of
-            the tribes will be told. Coming soon to the Mushrohm Kingdom. Coming
-            soon...
-          </p>
-        </section>
       </div>
     </>
   );
