@@ -8,7 +8,7 @@ function DesktopNav() {
       <Link className="logo-landscape-link" to="/">
         <img
           className="logo-landscape"
-          src="https://mushrohms.io/images/Logo_Landscape.png"
+          src="https://mushrohms.io/images/logo_landscape.png"
           alt="Mushrohms Logo"
         />
       </Link>
